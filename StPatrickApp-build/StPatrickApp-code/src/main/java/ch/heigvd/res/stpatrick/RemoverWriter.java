@@ -19,7 +19,7 @@ import java.io.Writer;
 public class RemoverWriter extends FileWriter {
 
     private char toRemove;
-    public RemoverWriter(Writer out, char toRemove) throws IOException {
+    public RemoverWriter(Write out, char toRemove) throws IOException {
         super(out);
         this.toRemove = toRemove; 
     }
